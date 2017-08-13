@@ -1,11 +1,6 @@
 =begin
-  
 write a program that outputs the factorial of the numbers 5, 6, 7, and 8. 
-
 =end
-
-
-
 
 a = 5
 b = 6
@@ -18,7 +13,6 @@ def factorial_num num
   end
   return num * factorial_num( num-1 )
 end
-
 
 puts factorial_num a
 puts factorial_num b
@@ -37,7 +31,6 @@ puts a, b, c, d
 
 # or this one
 puts
-
 fact_array = [5,6,7,8]
 fact_array.each do |num|
   fact = 1

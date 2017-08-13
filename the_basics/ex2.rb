@@ -12,9 +12,8 @@ puts "#{hundreds} hundreds"
 puts "#{tens} tens"
 puts "#{ones} ones"
 
-puts
-
 #more elegant
+puts
 one =my_num%10
 ten = my_num%100/10
 hundred = my_num%1000/100
