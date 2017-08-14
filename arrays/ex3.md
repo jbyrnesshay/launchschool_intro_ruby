@@ -1,0 +1,2 @@
+puts arr.last.first
+
