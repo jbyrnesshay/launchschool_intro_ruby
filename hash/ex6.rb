@@ -30,7 +30,6 @@ my_hash.each do |thing, value|
      value == value_again
   end
   my_array.push(my_store)
-  my_store.merge(my_store)
   my_hash = my_hash.delete_if {|k,v|  v == value }
 end
 my_array.each do |k,v|
