@@ -20,4 +20,4 @@ def match_a_b?(string)
   end
 end
 
-match_a_b?("death to americans, curly")
+match_a_b?("funny people, curly")
