@@ -4,7 +4,6 @@ until numbers.size == 0
   puts numbers.shift
 end
  
-
 # alternatively
 
 count = 0

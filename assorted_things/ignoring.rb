@@ -10,7 +10,6 @@ state = 'tExAs'
 state = state.capitalize
 puts state
 
-
 greeting = 'hello!'
 #puts greeting.replace('Goodbye')
 greeting.gsub!('hello', 'Goodbye')

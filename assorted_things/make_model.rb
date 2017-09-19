@@ -5,5 +5,4 @@ def car(make, model)
   make + ' ' + model
 end
 
-
 x = car('toyota', 'corolla')

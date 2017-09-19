@@ -1,7 +1,7 @@
 
 1. 3
 
-2. undeifined method
+2. undefined method
 
 3. 8
 

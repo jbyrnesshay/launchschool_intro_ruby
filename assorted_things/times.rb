@@ -4,7 +4,6 @@ def count_sheep
     puts sheep
     puts 'my self is ' 
   end
-
 end
 
 x = count_sheep

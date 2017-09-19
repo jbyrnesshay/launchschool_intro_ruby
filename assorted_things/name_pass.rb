@@ -3,8 +3,6 @@ users = ["billy"]
 PASSWORD = 'FunTimes'
 
  
-
-
 loop do    
  puts "please enter user name"
  user_try = gets.chomp
@@ -14,7 +12,5 @@ loop do
   break
  end
  puts "Authorization Failed!"
-  
-
 end
-puta 'welcome'
+puts 'welcome'

@@ -9,7 +9,6 @@ puts test1
 
 
 #as below, scream will return words
-
 def scream2(words)
   words = words + "!!!!"
   puts words

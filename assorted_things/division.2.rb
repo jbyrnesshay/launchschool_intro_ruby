@@ -5,12 +5,9 @@ def valid_number?(number_string)
 end
 
  
-
 MESSAGE = "you must enter integers only"
 def error_handling()
-   
    puts MESSAGE
- 
 end
 =begin
 test = gets.chomp
@@ -28,7 +25,6 @@ loop do
     error_handling
     next
   end
-
   loop do
     puts "please enter the denominator"
     denominator = gets.chomp
@@ -43,7 +39,6 @@ loop do
     else
       break 
     end
-     
   end
   break
 end

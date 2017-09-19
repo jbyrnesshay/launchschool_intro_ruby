@@ -9,7 +9,6 @@ loop do
   else 
     puts "not correct. try again"
   end
-  
 end
 
 # or 

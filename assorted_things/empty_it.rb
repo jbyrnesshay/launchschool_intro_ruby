@@ -7,10 +7,9 @@ loop do
   end
 end
 
- 
  #or 
 
- loop do
-  puts names2.shift
-  break if names2.empty?
- end
+loop do
+puts names2.shift
+break if names2.empty?
+end

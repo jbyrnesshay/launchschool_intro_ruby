@@ -16,9 +16,7 @@ end
 
 who_says_what {|person, phrase| puts "#{person} says #{phrase}"}
 
-
  puts "you gave #{ARGV.size} arguments"
-
  puts "#{ARGF}"
 
  

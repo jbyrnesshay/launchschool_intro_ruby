@@ -1,11 +1,9 @@
 array = ['thing', 5, 'wrongway', 18]
-
 array<<'dog'
 
 puts array
 
 fun_array = [1, 2, 3, 4, 5, 4]
-
 fun_array.map! {|x| x**2 }
  
 
@@ -23,13 +21,11 @@ puts fun_array
 puts
 fun_array.uniq!
 puts fun_array
-
 ding = fun_array.select {|x| x > 10}
 puts ding.inspect
 
 teams = [['joe', 'steven'], ['molly', 'frank'], ['dan', 'sara']]
 
-#p teams[0]
 
 puts teams.include?(['molly', 'fraonk'])
 

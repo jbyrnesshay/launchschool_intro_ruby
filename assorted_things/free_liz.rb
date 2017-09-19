@@ -6,10 +6,7 @@ pets.pop
 def ding item
   puts item.inspect
 end
-#puts my_pets
-#puts pets
-
-#pets.delete("lizard")
+ 
 ding pets
 ding my_pets
 

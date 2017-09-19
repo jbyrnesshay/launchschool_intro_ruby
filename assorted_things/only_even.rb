@@ -7,8 +7,6 @@ until number == 10
     next
   end
   puts number
-
-  
 end
 
 

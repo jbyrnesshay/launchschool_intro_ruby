@@ -1,6 +1,5 @@
 pets = ['cat', 'dog', 'fish', 'lizard']
 my_pets = pets[2..3]
-
 my_pets.pop
 
 def ding item
@@ -11,7 +10,6 @@ end
 
 #pets.delete("lizard")
  
- my_pets << pets[1]
-
+my_pets << pets[1]
 ding my_pets
 

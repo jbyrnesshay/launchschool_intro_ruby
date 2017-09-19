@@ -10,7 +10,6 @@ answer = case a
   else
     "a is neither 5, nor 6"
 end
-
 puts answer
 
 
@@ -27,5 +26,4 @@ when command == "run"
 else  
   "i am not sure what you should do"
 end
-
 puts action

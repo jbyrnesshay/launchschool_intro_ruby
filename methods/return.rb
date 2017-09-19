@@ -1,14 +1,12 @@
 
 
 #return.rb
-
 def add_three(number)
   number + 3
 end
 
 returned_value = add_three(4)
 puts returned_value
-
 
 def just_assignment(number)
   _foo = number + 3 # underscore in front inhibits the asssigned but unused variable warning/error

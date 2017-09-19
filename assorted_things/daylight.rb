@@ -6,7 +6,6 @@ def time_of_day(daylight)
   else
     puts "its nighttime"
   end
-
 end
 
 time_of_day(daylight)

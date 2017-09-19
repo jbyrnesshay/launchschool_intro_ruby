@@ -7,9 +7,6 @@ while input != 'STOP'
 end
 
 
-
-
-
 #loop do version
 
 loop do

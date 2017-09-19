@@ -7,19 +7,12 @@ def log thing
   puts (now2 - now)
 end
 
-
- 
 countdown = Proc.new do |val|
-
-  
   if val >= 0
     puts val
     countdown.call(val - 1)
   end
 end
-
-
- 
 
 countdown2 = Proc.new do |val|
   if val <= 0

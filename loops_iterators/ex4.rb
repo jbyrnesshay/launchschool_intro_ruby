@@ -20,8 +20,6 @@ def countdown2(val)
     countdown2(val - 1)
   end
 end
-
-
 test2 = countdown2(10)
 puts test2
 =end

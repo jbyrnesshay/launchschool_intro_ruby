@@ -14,7 +14,6 @@ end
 test = gets.chomp
 puts valid_number?(test)
 =end
-
 numerator = nil
 denominator = nil
 loop do

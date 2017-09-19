@@ -1,7 +1,4 @@
 # example of a method definition that modifies its argument
-
-
-
 a = [1, 2, 3]
 
 def mutate(array)
@@ -15,7 +12,6 @@ p "After mutate method: #{a}"
 
 # now an example of a method definitation that does not mutate the caller
 a = [1, 2, 3]
-
 def no_mutate(array)
   array.last
 end
