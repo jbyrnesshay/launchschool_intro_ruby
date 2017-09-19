@@ -2,7 +2,6 @@ pets = ['cat', 'dog', 'fish', 'lizard']
 pets2 = pets.dup
 my_pets = [pets[pets.index('fish')], pets[pets.index('lizard')]]
 
-
 my_pets2 = pets.select {
   |i| if i == 'fish' || i == 'lizard'
     i
@@ -14,7 +13,6 @@ my_pets3 = pets.map {
   if i == 'fish' || i == 'lizard'
     i
   end
-   
 }
 my_pets4 = pets.reject! {
  |i|

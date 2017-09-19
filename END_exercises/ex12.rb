@@ -8,17 +8,13 @@ contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 
 
 contacts.each do |key, value|
-
   search = key.match(/[^\s]*/).to_s.downcase
-  
   contact_data.each do |item|
-
-  if search == item.first.match(/[#{search}]*/).to_s
-    addition = item
-    contacts[key] = addition
-    #puts 'here:  ' + contact_data.assoc(search)
-  end
-
+    if search == item.first.match(/[#{search}]*/).to_s
+      addition = item
+      contacts[key] = addition
+      #puts 'here:  ' + contact_data.assoc(search)
+    end
   end
 end
 puts contacts

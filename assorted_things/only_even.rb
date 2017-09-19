@@ -9,8 +9,6 @@ until number == 10
   puts number
 end
 
-
-
 # or
 number = 0
 until number == 10

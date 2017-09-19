@@ -9,7 +9,6 @@ end
 
 #has_a_b?("hello, billy")
 
-
 # with match instead of =~
 
 def match_a_b?(string)

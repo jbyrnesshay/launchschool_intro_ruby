@@ -1,5 +1,4 @@
 
-
 stoplight = ['green','yellow','red'].sample
 
 case stoplight

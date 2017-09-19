@@ -20,4 +20,4 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 puts alphabet.split('')
 =end
 words = 'car human elephant airplane'
-puts words.split(' ').each {|bad_people| p "#{bad_people}s"}
+puts words.split(' ').each {|great_people| p "#{great_people}s"}

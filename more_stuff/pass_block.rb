@@ -2,7 +2,6 @@
 def take_block(number, &block)
   block.call(number)
   block.call(number + 200)
-
 end
 
 number = 400

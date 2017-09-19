@@ -7,7 +7,6 @@ def ding item
 end
 #puts my_pets
 #puts pets
-
 #pets.delete("lizard")
  
 my_pets << pets[1]

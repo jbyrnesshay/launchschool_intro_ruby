@@ -1,5 +1,4 @@
 
-
 a = 5
 
 answer = case a

@@ -21,7 +21,6 @@ end
 
 p "the 2nd output is #{output2_array}"
 
-
 #or, with +5
 
 output3_array = []

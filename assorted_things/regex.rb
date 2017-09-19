@@ -2,7 +2,6 @@
 
 test ="I don't thiink the world Java Python Java capable Perl Python Perl ttof being decent einterior ."
 ding = []
-
 ding = test.scan(/Python (Java|Perl)/)
 newline = test.gsub(/Perl/,'Ruby')
  
@@ -16,8 +15,8 @@ end
 
 who_says_what {|person, phrase| puts "#{person} says #{phrase}"}
 
- puts "you gave #{ARGV.size} arguments"
- puts "#{ARGF}"
+puts "you gave #{ARGV.size} arguments"
+puts "#{ARGF}"
 
  
 

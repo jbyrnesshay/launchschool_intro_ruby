@@ -16,7 +16,6 @@ num2 = gets.chomp.to_i
 #one line if syntax using then
 if num2 == 3 then puts "b is 3" elsif num2 == 4 then puts "b is 4" else puts "b is not 3 and is not 4" end
 
-
 puts "ok now another"
 num3 =  gets.chomp.to_i
 puts "x is 10" if num3 == 10 

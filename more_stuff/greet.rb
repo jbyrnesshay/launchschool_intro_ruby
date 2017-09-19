@@ -11,6 +11,5 @@ def decorate_greeting(person)
   puts "" + greet(person) + ""
 end
 
-
 decorate_greeting("John")
 decorate_greeting(1)
