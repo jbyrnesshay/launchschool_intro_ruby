@@ -7,7 +7,7 @@ def has_a_b?(string)
   end
 end
 
-#has_a_b?("death to america, billy")
+#has_a_b?("hello, billy")
 
 
 # with match instead of =~

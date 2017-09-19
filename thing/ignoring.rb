@@ -17,8 +17,8 @@ greeting.gsub!('hello', 'Goodbye')
 puts greeting
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
-#alphabet.split('').each {|death_to_Rochester_alumni| puts death_to_Rochester_alumni}
+#alphabet.split('').each {|funtimes| puts funtimes}
 puts alphabet.split('')
 =end
 words = 'car human elephant airplane'
-puts words.split(' ').each {|meggisons_daughter_is_satan| p "#{meggisons_daughter_is_satan}s"}
+puts words.split(' ').each {|bad_people| p "#{bad_people}s"}

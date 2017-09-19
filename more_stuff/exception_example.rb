@@ -1,7 +1,7 @@
 
 
 begin 
-  #perform a murder
+  #do this thing
 rescue
   #do this if operation fails
   #for example log the error
@@ -13,7 +13,7 @@ names.each do |name|
   begin
     puts "#{name}'s name has #{name.length} letters in it"
   rescue
-    puts "some ladies are bad"
+    puts "some things are really crazy, but this is great"
   end
 end
 
